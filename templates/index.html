@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1>MindEase Journal</h1>
+<h1>Welcome, {{ session.user }}!</h1>
 
 <form action="/add" method="POST">
     <textarea name="entry" rows="6" cols="40" placeholder="Write your thoughts..."></textarea>
@@ -13,7 +13,7 @@
     <button type="submit">Save Entry</button>
 </form>
 
-<a href="/entries">View Entries</a>
+<a href="/entries">View Your Entries</a>
 
 </body>
 </html>

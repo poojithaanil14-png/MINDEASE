@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Entries</title>
+    <title>Your Journal Entries</title>
 </head>
 <body>
 
 <h2>Your Journal Entries</h2>
 
-{% for e in entries %}
-    <p>{{ e }}</p>
-{% endfor %}
+{% if entries %}
+    {% for e in entries %}
+        <p>{{ e.text }}</p>
+    {% endfor %}
+{% else %}
+    <p>No entries yet. Start writing your thoughts!</p>
+{% endif %}
 
-<a href="/">Back</a>
+<a href="/home">Back</a>
 
 </body>
 </html>

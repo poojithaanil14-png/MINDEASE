@@ -1,7 +1,16 @@
-body {
-    font-family: Arial;
-    margin: 40px;
-}
-textarea {
-    width: 300px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login to MindEase</title>
+</head>
+<body>
+
+<h2>Login to MindEase</h2>
+
+<form method="POST">
+    <input type="text" name="username" placeholder="Enter your name" required>
+    <button type="submit">Login</button>
+</form>
+
+</body>
+</html>
