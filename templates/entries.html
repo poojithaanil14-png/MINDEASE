@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Entries</title>
+</head>
+<body>
+
+<h2>Your Journal Entries</h2>
+
+{% for e in entries %}
+    <p>{{ e }}</p>
+{% endfor %}
+
+<a href="/">Back</a>
+
+</body>
+</html>
