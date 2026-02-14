@@ -103,5 +103,10 @@
         "user": "k",
         "text": "hi,it's a happy day",
         "mood": "happy"
+    },
+    {
+        "user": "hh",
+        "text": "ayooooooooooo",
+        "mood": "sad"
     }
 ]
