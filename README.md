@@ -13,7 +13,7 @@
 - Member 2: [PRATHYUSHA S] - [GOVERNMENT ENGINEERING COLLEGE THRISSUR]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://mindease-y8pm.onrender.com
 
 ### Project Description
 [MindEase is a Flask-powered journaling app that helps users monitor their mental health. Unlike a plain notebook, it detects your mood as you write and offers immediate motivational support based on how you’re feeling today.]
