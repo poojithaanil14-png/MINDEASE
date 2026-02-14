@@ -1,12 +1,12 @@
 * {
     margin: 0; padding: 0; box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, italic serif;
+    font-family: 'Segoe UI', Tahoma, ;
 }
 
 body {
     height: 100vh; display: flex; 
     justify-content: center; align-items: center;
-    background: linear-gradient(135deg, #c7b752, #32606d);
+    background: linear-gradient(135deg, #e7dc8f, #7fc9dd);
 }
 
 .login-container, .journal-container {
@@ -27,7 +27,7 @@ body {
 .save-btn, .login-btn {
     width: 100%; padding: 12px; border: none;
     border-radius: 8px; color: white;
-    background: linear-gradient(135deg, #774b12, #244681);
+    background: linear-gradient(135deg, #daa2db, #8fb1ec);
     cursor: pointer; font-weight: bold; transition: 0.3s;
 }
 
