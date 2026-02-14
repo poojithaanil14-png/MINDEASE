@@ -72,5 +72,5 @@ def show_entries():
     return render_template("entries.html", entries=user_entries, motivation=motivation)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
 
