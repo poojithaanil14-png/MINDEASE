@@ -1,12 +1,12 @@
 * {
     margin: 0; padding: 0; box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, italic serif;
 }
 
 body {
     height: 100vh; display: flex; 
     justify-content: center; align-items: center;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #0b0b4f, #418fc6);
 }
 
 .login-container, .journal-container {
