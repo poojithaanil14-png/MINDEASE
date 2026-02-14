@@ -6,14 +6,14 @@
 body {
     height: 100vh; display: flex; 
     justify-content: center; align-items: center;
-    background: linear-gradient(135deg, #0b0b4f, #418fc6);
+    background: linear-gradient(135deg, #c7b752, #32606d);
 }
 
 .login-container, .journal-container {
     background: #ffffff;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ body {
 .save-btn, .login-btn {
     width: 100%; padding: 12px; border: none;
     border-radius: 8px; color: white;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #774b12, #244681);
     cursor: pointer; font-weight: bold; transition: 0.3s;
 }
 
@@ -35,5 +35,5 @@ body {
 
 .extra-links a {
     display: inline-block; margin-top: 15px;
-    text-decoration: none; color: #2575fc; font-size: 14px;
+    text-decoration: none; color: #0d2651; font-size: 14px;
 }
