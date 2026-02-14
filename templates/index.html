@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MindEase Journal</title>
+    <meta charset="UTF-8">
+    <title>Journal - MindEase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-
-<h1>Welcome, {{ session.user }}!</h1>
-
-<form action="/add" method="POST">
-    <textarea name="entry" rows="6" cols="40" placeholder="Write your thoughts..."></textarea>
-    <br>
-    <button type="submit">Save Entry</button>
-</form>
-
-<a href="/entries">View Your Entries</a>
-
+    <div class="journal-container">
+        <h2>Welcome, {{ session['user'] }}! ✍️</h2>
+        
+        <form class="journal-form" method="POST" action="/add">
+            <textarea name="entry" placeholder="Start typing your thoughts here..." required></textarea>
+            
+            <div class="input-group">
+                <label>How is your mood?</label>
+                <select name="mood" style="width: 100%; padding: 10px; border-radius: 8px; margin-top: 5px;">
+                    <option value="happy">Happy 😊</option>
+                    <option value="neutral">Neutral 😐</option>
+                    <option value="sad">Sad 😔</option>
+                </select>
+            </div>
+            <textarea name="entry" placeholder="Start typing your thoughts here..." required></textarea>
+            <button type="submit" class="save-btn" style="margin-top: 20px;">Save Entry</button>
+        </form>
+        
+        <div class="extra-links">
+            <a href="/entries">View Your Entries</a>
+        </div>
+    </div>
 </body>
 </html>
